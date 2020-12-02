@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.js": "/ReactPortfolio/static/js/main.db596766.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.db596766.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.1ff0d382.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.93fab10c.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.93fab10c.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.c16afd79.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.c16afd79.js.map",
-    "static/js/2.ae2b647b.chunk.js": "/ReactPortfolio/static/js/2.ae2b647b.chunk.js",
-    "static/js/2.ae2b647b.chunk.js.map": "/ReactPortfolio/static/js/2.ae2b647b.chunk.js.map",
+    "static/js/2.852f78a6.chunk.js": "/ReactPortfolio/static/js/2.852f78a6.chunk.js",
+    "static/js/2.852f78a6.chunk.js.map": "/ReactPortfolio/static/js/2.852f78a6.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/js/2.ae2b647b.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.ae2b647b.chunk.js.LICENSE.txt"
+    "static/css/main.1ff0d382.chunk.css.map": "/ReactPortfolio/static/css/main.1ff0d382.chunk.css.map",
+    "static/js/2.852f78a6.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.852f78a6.chunk.js.LICENSE.txt",
+    "static/media/CodeQuiz.4a71e73c.jpg": "/ReactPortfolio/static/media/CodeQuiz.4a71e73c.jpg",
+    "static/media/DayScheduler.8451224e.jpg": "/ReactPortfolio/static/media/DayScheduler.8451224e.jpg",
+    "static/media/GitHub.29189cb4.jpg": "/ReactPortfolio/static/media/GitHub.29189cb4.jpg",
+    "static/media/LinkedIn.26dbc334.jpg": "/ReactPortfolio/static/media/LinkedIn.26dbc334.jpg",
+    "static/media/PasswordGenerator.65c812c1.jpg": "/ReactPortfolio/static/media/PasswordGenerator.65c812c1.jpg",
+    "static/media/Portfolio.c1b4acdc.jpg": "/ReactPortfolio/static/media/Portfolio.c1b4acdc.jpg",
+    "static/media/Profilepicture.aeb47681.jfif": "/ReactPortfolio/static/media/Profilepicture.aeb47681.jfif",
+    "static/media/Project1.6946ffd8.jpg": "/ReactPortfolio/static/media/Project1.6946ffd8.jpg",
+    "static/media/WeatherDashboard.1757d75a.jpg": "/ReactPortfolio/static/media/WeatherDashboard.1757d75a.jpg",
+    "static/media/portfoliostyle.css": "/ReactPortfolio/static/media/backgroundGif.948df7c0.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c16afd79.js",
-    "static/js/2.ae2b647b.chunk.js",
-    "static/js/main.db596766.chunk.js"
+    "static/js/2.852f78a6.chunk.js",
+    "static/css/main.1ff0d382.chunk.css",
+    "static/js/main.93fab10c.chunk.js"
   ]
 }
