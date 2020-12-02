@@ -28,7 +28,7 @@ function Home() {
                             <img className="profilepics" src="img/LinkedIn.jpg" alt="LinkedIn screenshot" />
                             <h3>LinkedIn</h3>
                             <section>My LinkedIn page so we can connect professionally.
-                     Click <a href="https://www.linkedin.com/in/carlos-j-benitez-a2869411a/" target="_blank">here</a> to
+                     Click <a href="https://www.linkedin.com/in/carlos-j-benitez-a2869411a/" target="_blank" rel="noreferrer">here</a> to
                      connect.</section>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function Home() {
                             <img className="profilepics" src="img/GitHub.jpg" alt="GitHub screenshot" />
                             <h3>GitHub</h3>
                             <section>I actively update my GitHub with projects that I work on. Click <a
-                                href="https://github.com/Carlosbenitez" target="_blank">here</a> to
+                                href="https://github.com/Carlosbenitez" target="_blank" rel="noreferrer">here</a> to
                      take a look at my page.
                  </section>
                         </div>
