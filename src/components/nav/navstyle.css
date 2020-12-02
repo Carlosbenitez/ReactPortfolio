@@ -1,0 +1,21 @@
+.navbar-toggler{
+    background-color: #39FF14;
+}
+
+.navbar{
+    background-color: black;
+    color:#39FF14;
+    }
+
+    .nav-item{
+        color: #39FF14;
+    }
+
+    .nav-item:hover {
+        background-color: #39FF14;
+        color: black;
+    }
+
+    .navbar-brand{
+        font-weight: bold;
+    }
