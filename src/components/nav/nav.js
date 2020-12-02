@@ -12,9 +12,9 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-item nav-link active"><Link to="/ReactPortfolio">Home</Link></a>
-                    <a className="nav-item nav-link active"><Link to="/ReactPortfolio/portfolio">Portfolio</Link></a>
-                    <a className="nav-item nav-link active"><Link to="/ReactPortfolio/contact">Contact</Link></a>
+                    <Link to="/ReactPortfolio"><a className="nav-item nav-link active">Home</a></Link>
+                    <Link to="/ReactPortfolio/portfolio"><a className="nav-item nav-link active">Portfolio</a></Link>
+                    <Link to="/ReactPortfolio/contact"><a className="nav-item nav-link active">Contact</a></Link>
                 </div>
             </div>
         </nav>
