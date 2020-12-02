@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Nav />
       <Route exact path = {["/", "/ReactPortfolio"]} component={Home}/>
-      <Route exact path = "/contact" component={Contact}/>
-      <Route exact path = "/portfolio" component={Portfolio}/>
+      <Route exact path = "/ReactPortfolio/contact" component={Contact}/>
+      <Route exact path = "/ReactPortfolio/portfolio" component={Portfolio}/>
       <Footer />
     </Router>
   );

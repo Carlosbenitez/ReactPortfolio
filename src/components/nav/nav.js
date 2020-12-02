@@ -11,9 +11,9 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-item nav-link active" href="/">About<span className="sr-only">(current)</span></a>
-                    <a className="nav-item nav-link active" href="/portfolio">Portfolio</a>
-                    <a className="nav-item nav-link active" href="/contact">Contact</a>
+                    <a className="nav-item nav-link active" href="/ReactPortfolio">About<span className="sr-only">(current)</span></a>
+                    <a className="nav-item nav-link active" href="/ReactPortfolio/portfolio">Portfolio</a>
+                    <a className="nav-item nav-link active" href="/ReactPortfolio/contact">Contact</a>
                 </div>
             </div>
         </nav>
