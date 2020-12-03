@@ -19,7 +19,7 @@ function Portfolio() {
                     <h3>First Project</h3>
                     <section>This is the first project I have worked on in my coding career. It utilizes APIs to show
                         users top music tracks and also allows users to search for media. There is a review page and a
-                        working profile page. While logged into your profile you can add media to your favorites.
+                        working profile page. While logged into your profile you can add media to your favorites. My responsiblity was the Reviews Page.
                         Click <a href="https://carlosbenitez.github.io/AppifyMusic/" target="_blank" rel="noreferrer">here</a> to explore my first project.</section>
                 </div>
             </div>
