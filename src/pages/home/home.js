@@ -1,16 +1,34 @@
 import React from "react"
 import "./homestyle.css"
-import profile from "./Profilepicture.jfif"
-import git from "./GitHub.jpg"
-import link from "./LinkedIn.jpg"
-import portfolio from "./Portfolio.jpg"
+import profile from "./img/Profilepicture.jfif"
+import git from "./img/GitHub.jpg"
+import linkedin from "./img/LinkedIn.jpg"
+import portfolio from "./img/Portfolio.jpg"
+
 
 function Home() {
+    const cardInfo = [
+        { image: linkedin, title: "LinkedIn", text: "My LinkedIn page so we can connect professionally.", site: "https://www.linkedin.com/in/carlos-j-benitez-a2869411a/", alt: "My LinkedIn" },
+        { image: git, title: "GitHub", text: "I actively update my GitHub with projects that I work on.", site: "https://github.com/Carlosbenitez", alt: "My Github" },
+        { image: portfolio, title: "Portfolio", text: "Check out what I have been working on!", site: "/ReactPortfolio/portfolio", alt: "My Portfolio" },
+    ];
+
+    const renderCard = (card, index) => {
+        return (
+            <div className="col-sm-12 col-md-4 col-lg-4">
+                <div className="content" key={index}>
+                    <a href={card.site} rel="noreferrer" target="_blank">
+                        <img className="profilepics" src={card.image} alt={card.alt} />
+                    </a>
+                    <h3>{card.title}</h3>
+                    <section>{card.text}</section>
+                </div>
+            </div>)
+    }
     return (
         <>
-            <div className="row text-center"><div className="col-md-3 col-centered">
-                <img id="profilepic" src={profile} alt="A photo of me." className="w-100" />
-            </div>
+            <div className="col-md-3 col-centered">
+                <img id="profilepic" src={profile} alt="Carlos Benitez" className="w-100" />
             </div>
             <br />
             <div id="contentback">
@@ -27,36 +45,13 @@ function Home() {
         Here is a page dedicated to some of the projects I have worked on. If you enjoy my work please feel free to
         link with me on my professional websites below.
     </article>
+    <h4>(Click the image to take a look!)</h4>
+                {/* card is imported here */}
                 <div className="row">
-                    <div className="col-sm-12 col-md-4 col-lg-4">
-                        <div className="content">
-                            <img className="profilepics" src={link} alt="LinkedIn screenshot" />
-                            <h3>LinkedIn</h3>
-                            <section>My LinkedIn page so we can connect professionally.
-                    Click <a href="https://www.linkedin.com/in/carlos-j-benitez-a2869411a/" target="_blank" rel="noreferrer">here</a> to
-                    connect.</section>
-                        </div>
-                    </div>
-                    <div className="col-sm-12 col-md-4 col-lg-4">
-                        <div className="content">
-                            <img className="profilepics" src={git} alt="GitHub screenshot" />
-                            <h3>GitHub</h3>
-                            <section>I actively update my GitHub with projects that I work on. Click <a
-                                href="https://github.com/Carlosbenitez" target="_blank" rel="noreferrer">here</a> to
-                    take a look at my page.
-                </section>
-                        </div>
-                    </div>
-                    <div className="col-sm-12 col-md-4 col-lg-4">
-                        <div className="content">
-                            <img className="profilepics" src={portfolio} alt="Portfolio screenshot" />
-                            <h3>Portfolio</h3>
-                            <section>You can click the Portfolio button at the top of the page or click <a href="portfolio.html">here</a> to take a look at a Portfolio of my work.</section>
-                        </div>
-                    </div>
+                    {cardInfo.map(renderCard)}
                 </div>
             </div>
-            </>
+        </>
     )
 }
 
