@@ -1,30 +1,35 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.1ff0d382.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.ee3bdcbb.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.ee3bdcbb.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.120e4102.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.11f7915b.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.11f7915b.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.c16afd79.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.c16afd79.js.map",
     "static/js/2.d5275dee.chunk.js": "/ReactPortfolio/static/js/2.d5275dee.chunk.js",
     "static/js/2.d5275dee.chunk.js.map": "/ReactPortfolio/static/js/2.d5275dee.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/css/main.1ff0d382.chunk.css.map": "/ReactPortfolio/static/css/main.1ff0d382.chunk.css.map",
+    "static/css/main.120e4102.chunk.css.map": "/ReactPortfolio/static/css/main.120e4102.chunk.css.map",
     "static/js/2.d5275dee.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.d5275dee.chunk.js.LICENSE.txt",
+    "static/media/BurgerLogger.9c3ed7bf.jpg": "/ReactPortfolio/static/media/BurgerLogger.9c3ed7bf.jpg",
     "static/media/CodeQuiz.4a71e73c.jpg": "/ReactPortfolio/static/media/CodeQuiz.4a71e73c.jpg",
     "static/media/DayScheduler.8451224e.jpg": "/ReactPortfolio/static/media/DayScheduler.8451224e.jpg",
+    "static/media/FitnessTracker.aeac3eec.jpg": "/ReactPortfolio/static/media/FitnessTracker.aeac3eec.jpg",
     "static/media/GitHub.29189cb4.jpg": "/ReactPortfolio/static/media/GitHub.29189cb4.jpg",
     "static/media/LinkedIn.26dbc334.jpg": "/ReactPortfolio/static/media/LinkedIn.26dbc334.jpg",
+    "static/media/NoteTaker.42efbff8.jpg": "/ReactPortfolio/static/media/NoteTaker.42efbff8.jpg",
     "static/media/PasswordGenerator.65c812c1.jpg": "/ReactPortfolio/static/media/PasswordGenerator.65c812c1.jpg",
     "static/media/Portfolio.c1b4acdc.jpg": "/ReactPortfolio/static/media/Portfolio.c1b4acdc.jpg",
     "static/media/Profilepicture.aeb47681.jfif": "/ReactPortfolio/static/media/Profilepicture.aeb47681.jfif",
+    "static/media/ProgressiveBudget.9c4fa7cd.jpg": "/ReactPortfolio/static/media/ProgressiveBudget.9c4fa7cd.jpg",
     "static/media/Project1.6946ffd8.jpg": "/ReactPortfolio/static/media/Project1.6946ffd8.jpg",
+    "static/media/RogueBlitz.c20e2d87.jpg": "/ReactPortfolio/static/media/RogueBlitz.c20e2d87.jpg",
     "static/media/WeatherDashboard.1757d75a.jpg": "/ReactPortfolio/static/media/WeatherDashboard.1757d75a.jpg",
     "static/media/portfoliostyle.css": "/ReactPortfolio/static/media/backgroundGif.948df7c0.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c16afd79.js",
     "static/js/2.d5275dee.chunk.js",
-    "static/css/main.1ff0d382.chunk.css",
-    "static/js/main.ee3bdcbb.chunk.js"
+    "static/css/main.120e4102.chunk.css",
+    "static/js/main.11f7915b.chunk.js"
   ]
 }
