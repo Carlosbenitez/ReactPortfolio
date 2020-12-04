@@ -12,7 +12,7 @@ body{
     flex-direction: column;
 }
 
-#contentback{
+.contentback{
     background: rgba(0, 0, 0, 0.7);
 }
 

@@ -31,7 +31,7 @@ function Home() {
                 <img id="profilepic" src={profile} alt="Carlos Benitez" className="w-100" />
             </div>
             <br />
-            <div id="contentback">
+            <div className="contentback">
                 <article>
                     With seven years of logistics experience I am looking for a new career path by learning the language of code.
         <br />
@@ -45,12 +45,14 @@ function Home() {
         Here is a page dedicated to some of the projects I have worked on. If you enjoy my work please feel free to
         link with me on my professional websites below.
     </article>
+    </div>
+    <div id="contentback">
     <h4>(Click the image to take a look!)</h4>
                 {/* card is imported here */}
                 <div className="row">
                     {cardInfo.map(renderCard)}
                 </div>
-            </div>
+                </div>
         </>
     )
 }
