@@ -14,6 +14,7 @@ function Nav() {
                 <div className="navbar-nav">
                     <Link to="/ReactPortfolio"><a className="nav-item nav-link active">Home</a></Link>
                     <Link to="/ReactPortfolio/portfolio"><a className="nav-item nav-link active">Portfolio</a></Link>
+                    <Link to="/ReactPortfolio/videos"><a className="nav-item nav-link active">Videos</a></Link>
                     <Link to="/ReactPortfolio/contact"><a className="nav-item nav-link active">Contact</a></Link>
                 </div>
             </div>
