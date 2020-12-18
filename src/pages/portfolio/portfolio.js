@@ -2,6 +2,7 @@ import React from "react"
 import "./portfoliostyle.css"
 import rogue from "./img/RogueBlitz.jpg"
 import project1 from "./img/Project1.jpg"
+import project3 from "./img/Project3.jpg"
 import password from "./img/PasswordGenerator.jpg"
 import quiz from "./img/CodeQuiz.jpg"
 import scheduler from "./img/DayScheduler.jpg"
@@ -10,14 +11,12 @@ import note from "./img/NoteTaker.jpg"
 import burger from "./img/BurgerLogger.jpg"
 import fitness from "./img/FitnessTracker.jpg"
 import budget from "./img/ProgressiveBudget.jpg"
-// import gaming from "./img/GamingWebsite.jpg"
 
 function Portfolio() {
     const cardInfo = [
-        { 
-        // { image: gaming, title: "Third Project", text: "", site: "", alt: "My Third Project"},
+        {image: project3, title: "Third Project", text: "For the third project our group wanted to continue developing games so we focused our efforts on creating a game hosting platform for the two games in production. The page became known as VG Gaming where we host two games Dino Dynasty and Rogue Blitz. The high scores for both games are linked to an accounts gamertag and are displayed for the world to see. Create an account today so you can compete against your friends all over the world.", site: "https://vguniverse.herokuapp.com/", alt: "My Third Project"},
 
-        image: rogue, title: "Second Project", text: "The second project that I had the privledge to work on was a retro game called Rogue Blitz. We utilized a library called Phaser to animate everything and add physics. This game is a horde style game that has you battling to put your high score on top. I was responsible for enemy creation and the UI. Think you can beat my high score? Give it a try!", site: "https://rogueblitzgaming.herokuapp.com/", alt: "My Second Project"},
+        {image: rogue, title: "Second Project", text: "The second project that I had the privledge to work on was a retro game called Rogue Blitz. We utilized a library called Phaser to animate everything and add physics. This game is a horde style game that has you battling to put your high score on top. I was responsible for enemy creation and the UI. Think you can beat my high score? Give it a try!", site: "https://rogueblitzgaming.herokuapp.com/", alt: "My Second Project"},
 
         { image: project1, title: "First Project", text: "This is the first project I have worked on in my coding career. It utilizes APIs to show users top music tracks and also allows users to search for media. There is a review page and a working profile page. While logged into your profile you can add media to your favorites. My responsiblity was the Reviews Page.", site: "https://carlosbenitez.github.io/AppifyMusic/", alt: "My First Project" },
 
