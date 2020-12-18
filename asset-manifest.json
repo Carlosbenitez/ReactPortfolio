@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.ac47ca38.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.d0fce5b4.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.d0fce5b4.chunk.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.a8517aea.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.a8517aea.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.c16afd79.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.c16afd79.js.map",
     "static/js/2.d5275dee.chunk.js": "/ReactPortfolio/static/js/2.d5275dee.chunk.js",
@@ -22,6 +22,7 @@
     "static/media/Profilepicture.aeb47681.jfif": "/ReactPortfolio/static/media/Profilepicture.aeb47681.jfif",
     "static/media/ProgressiveBudget.9c4fa7cd.jpg": "/ReactPortfolio/static/media/ProgressiveBudget.9c4fa7cd.jpg",
     "static/media/Project1.6946ffd8.jpg": "/ReactPortfolio/static/media/Project1.6946ffd8.jpg",
+    "static/media/Project3.67464544.jpg": "/ReactPortfolio/static/media/Project3.67464544.jpg",
     "static/media/RogueBlitz.c20e2d87.jpg": "/ReactPortfolio/static/media/RogueBlitz.c20e2d87.jpg",
     "static/media/WeatherDashboard.1757d75a.jpg": "/ReactPortfolio/static/media/WeatherDashboard.1757d75a.jpg",
     "static/media/portfoliostyle.css": "/ReactPortfolio/static/media/backgroundGif.948df7c0.gif"
@@ -30,6 +31,6 @@
     "static/js/runtime-main.c16afd79.js",
     "static/js/2.d5275dee.chunk.js",
     "static/css/main.ac47ca38.chunk.css",
-    "static/js/main.d0fce5b4.chunk.js"
+    "static/js/main.a8517aea.chunk.js"
   ]
 }
