@@ -1,7 +1,13 @@
 import React from "react"
 import "./contactstyle.css"
 
+
 function Contact() {
+    function sendTo() {
+        window.location.href = "mailto:carlosbenitez86753@yahoo.com?subject=" + document.getElementById('Subject').value + "&body=" +
+            document.getElementById('Message').value
+        window.alert("Thank you for your message!");
+    }
     return (
         <>
 
@@ -21,7 +27,7 @@ function Contact() {
                         <textarea className="form-control" id="Message" rows="8"></textarea>
                         <br />
                     </div>
-                    <button type="button" className="btn btn-primary btn-lg">Submit</button>
+                    <button type="button" className="btn btn-primary btn-lg" onClick={sendTo}>Submit</button>
                 </form>
             </div>
         </>

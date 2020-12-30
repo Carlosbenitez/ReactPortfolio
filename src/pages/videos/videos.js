@@ -14,16 +14,16 @@ function Videos() {
         return (
             <div className="col-lg-6">
                 <div className="content" key={index}>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src={card.site} allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src={card.site} allowfullscreen></iframe>
+                    </div>
+                    <h3>{card.title}</h3>
+                    <section>{card.text}</section>
                 </div>
-                <h3>{card.title}</h3>
-                <section>{card.text}</section>
             </div>
-            </div>
-            
-            
-            )
+
+
+        )
     }
     return (
         <>
