@@ -1,5 +1,4 @@
 import React from "react"
-import "./videosstyle.css"
 import YouTube from 'react-youtube';
 function Videos() {
     const vidInfo = [
@@ -13,11 +12,11 @@ function Videos() {
     const renderVid = (card, index) => {
         return (
             <div className="col-lg-6">
-                <div className="content" key={index}>
+                <div className="content" id="videoscontent" key={index}>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src={card.site} allowfullscreen></iframe>
                     </div>
-                    <h3>{card.title}</h3>
+                    <h3 id="videoh3">{card.title}</h3>
                     <section>{card.text}</section>
                 </div>
             </div>
@@ -27,7 +26,7 @@ function Videos() {
     }
     return (
         <>
-            <h1>Some videos I made:</h1>
+            <h1 id="videoh1">Some videos I made:</h1>
             <div className="main">
                 <div id="contentback">
                     {/* card is imported here */}

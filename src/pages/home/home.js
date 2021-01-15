@@ -1,5 +1,4 @@
 import React from "react"
-import "./homestyle.css"
 import profile from "./img/Profilepicture.jfif"
 import git from "./img/GitHub.jpg"
 import linkedin from "./img/LinkedIn.jpg"
@@ -16,12 +15,12 @@ function Home() {
     const renderCard = (card, index) => {
         return (
             <div className="col-sm-12 col-md-4 col-lg-4">
-                <div className="content" key={index}>
+                <div className="content" id="homecontent" key={index}>
                     <a href={card.site} rel="noreferrer" target="_blank">
                         <img className="profilepics" src={card.image} alt={card.alt} />
                     </a>
-                    <h3>{card.title}</h3>
-                    <section>{card.text}</section>
+                    <h3 id ="homeh3">{card.title}</h3>
+                    <section >{card.text}</section>
                 </div>
             </div>)
     }
@@ -32,7 +31,7 @@ function Home() {
             </div>
             <br />
             <div className="contentback">
-                <article>
+                <article id="hometext">
                     With seven years of logistics experience I am looking for a new career path by learning the language of code.
         <br />
                     <br />
@@ -47,7 +46,6 @@ function Home() {
     </article>
     </div>
     <div id="contentback">
-    <h4>(Click the image to take a look!)</h4>
                 {/* card is imported here */}
                 <div className="row">
                     {cardInfo.map(renderCard)}

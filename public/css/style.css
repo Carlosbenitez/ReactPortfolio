@@ -1,0 +1,168 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/SimpleLogo.png);
+    background-repeat: repeat;
+    background-size: 100px;
+}
+
+.content{
+    margin-left:15px;
+}
+
+
+.fa{
+    font-size:24px;
+}
+
+.row{
+    color:white;
+    margin-top: 20px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profilepics{
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100%;
+}
+
+
+/* Contact specific css */
+
+#contactform{
+    color:white;
+    height: 100vh;
+}
+
+#contacth1{
+    margin-left: 15px;
+    margin-top: 5px;
+    color:white;
+    background-color: black;
+}
+
+.contactlabels{
+    background-color: black;
+}
+
+.btn{
+    margin-left: 15px;
+    background-color: black;
+    color:white;
+    border: black;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border:white;
+}
+
+
+/* Home specific css */
+
+#hometext{
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: larger;
+    color: white;
+    background-color: black;
+}
+
+#homeh3{
+    margin-top: 10px;
+}
+
+#profilepic{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 40%;
+    display: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 20px;
+}
+
+#homecontent{
+    background-color: black;
+}
+
+/* Portfolio specific css */
+
+#portfolioh1{
+    margin-left: 15px;
+    margin-top: 5px;
+    color:white;
+    background-color: black;
+}
+
+
+#portfolioh3{
+    margin-top: 10px;
+}
+
+#portfoliocontent{
+    background-color: black;
+}
+
+
+/* Video specific css */
+
+#videoh1{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+}
+
+#videoscontent{
+    background-color: black;
+}
+
+
+/* Nav specific css */
+
+#videoh3{
+    margin-top: 10px;
+}
+.navbar-toggler{
+    background-color:white;
+}
+
+.navbar{
+    background-color: black;
+    color:white;
+    }
+
+    .nav-item{
+        color: white;
+        transition: 0.75s ease;
+    }
+
+    .nav-item:hover {
+        background-color: white;
+        color: black;
+        
+    }
+
+    .navbar-brand{
+        color:white;
+        font-weight: bold;
+    }
+
+
+@media screen and (max-width: 600px) {
+}

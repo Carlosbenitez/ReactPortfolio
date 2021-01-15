@@ -1,5 +1,4 @@
 import React from "react"
-import "./contactstyle.css"
 
 
 function Contact() {
@@ -13,17 +12,17 @@ function Contact() {
 
 
             <div id="contentback">
-                <h1>Contact Me!</h1>
+                <h1 id="contacth1">Contact Me!</h1>
                 <hr />
-                <form>
+                <form id="contactform">
 
                     <div className="form-group col-md-6">
-                        <label for="exampleFormControlInput1">Subject</label>
+                        <label for="exampleFormControlInput1" className="contactlabels">Subject</label>
                         <input type="email" className="form-control" id="Subject" placeholder="Subject" />
                     </div>
 
                     <div className="form-group col-md-6">
-                        <label for="exampleFormControlTextarea1">Message:</label>
+                        <label for="exampleFormControlTextarea1" className="contactlabels">Message:</label>
                         <textarea className="form-control" id="Message" rows="8"></textarea>
                         <br />
                     </div>
