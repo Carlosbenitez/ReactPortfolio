@@ -13,9 +13,9 @@ import budget from "./img/ProgressiveBudget.jpg"
 
 function Portfolio() {
     const cardInfo = [
-        {image: project3, title: "VG Gaming", text: "For the third project our group wanted to continue developing games so we focused our efforts on creating a game hosting platform for the two games in production. The page became known as VG Gaming where we host two games Dino Dynasty and Rogue Blitz. The high scores for both games are linked to an accounts gamertag and are displayed for the world to see. Create an account today so you can compete against your friends all over the world.", site: "https://vguniverse.herokuapp.com/", alt: "My Third Project"},
+        { image: project3, title: "VG Gaming", text: "For the third project our group wanted to continue developing games so we focused our efforts on creating a game hosting platform for the two games in production. The page became known as VG Gaming where we host two games Dino Dynasty and Rogue Blitz. The high scores for both games are linked to an accounts gamertag and are displayed for the world to see. Create an account today so you can compete against your friends all over the world.", site: "https://vguniverse.herokuapp.com/", alt: "My Third Project" },
 
-        {image: rogue, title: "Rogue Blitz", text: "The second project that I had the privledge to work on was a retro game called Rogue Blitz. We utilized a library called Phaser to animate everything and add physics. This game is a horde style game that has you battling to put your high score on top. I was responsible for enemy creation and the UI. Think you can beat my high score? Give it a try!", site: "https://rogueblitzgaming.herokuapp.com/", alt: "My Second Project"},
+        { image: rogue, title: "Rogue Blitz", text: "The second project that I had the privledge to work on was a retro game called Rogue Blitz. We utilized a library called Phaser to animate everything and add physics. This game is a horde style game that has you battling to put your high score on top. I was responsible for enemy creation and the UI. Think you can beat my high score? Give it a try!", site: "https://rogueblitzgaming.herokuapp.com/", alt: "My Second Project" },
 
         // { image: project1, title: "First Project", text: "This is the first project I have worked on in my coding career. It utilizes APIs to show users top music tracks and also allows users to search for media. There is a review page and a working profile page. While logged into your profile you can add media to your favorites. My responsiblity was the Reviews Page.", site: "https://carlosbenitez.github.io/AppifyMusic/", alt: "My First Project" },
 
@@ -42,7 +42,7 @@ function Portfolio() {
             <div className="col-sm-12 col-md-3 col-lg-3">
                 <div className="content" id="portfoliocontent" key={index}>
                     <a href={card.site} rel="noreferrer" target="_blank">
-                        <img className="profilepics" src={card.image} alt={card.alt} />
+                        <img className="projectpics" src={card.image} alt={card.alt} />
                     </a>
                     <h3 id="portfolioh3">{card.title}</h3>
                     <section>{card.text}</section>

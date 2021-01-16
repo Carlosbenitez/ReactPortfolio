@@ -19,15 +19,25 @@ function Home() {
                     <a href={card.site} rel="noreferrer" target="_blank">
                         <img className="profilepics" src={card.image} alt={card.alt} />
                     </a>
-                    <h3 id ="homeh3">{card.title}</h3>
+                    <h3 id="homeh3">{card.title}</h3>
                     <section >{card.text}</section>
                 </div>
             </div>)
     }
     return (
         <>
-            <div className="col-md-3 col-centered">
-                <img id="profilepic" src={profile} alt="Carlos Benitez" className="w-100" />
+            <div id="homecarousel" className="carousel slide" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img className="d-block w-100 homepersonalpics" src={profile} alt="First slide" />
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100 homepersonalpics" src="..." alt="Second slide" />
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100 homepersonalpics" src="..." alt="Third slide" />
+                    </div>
+                </div>
             </div>
             <br />
             <div className="contentback">
@@ -44,13 +54,13 @@ function Home() {
         Here is a page dedicated to some of the projects I have worked on. If you enjoy my work please feel free to
         link with me on my professional websites below.
     </article>
-    </div>
-    <div id="contentback">
+            </div>
+            <div id="contentback">
                 {/* card is imported here */}
                 <div className="row">
                     {cardInfo.map(renderCard)}
                 </div>
-                </div>
+            </div>
         </>
     )
 }

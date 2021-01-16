@@ -4,7 +4,7 @@ import "./footerstyle.css"
 function Footer() {
     return (
         <>
-<footer className="footer">&copy; Copyright 2020 Carlos J Benitez</footer></>
+            <footer className="footer">&copy; Copyright 2020 Carlos J Benitez</footer></>
     )
 }
 

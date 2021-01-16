@@ -10,10 +10,10 @@ function App() {
   return (
     <Router>
       <Nav />
-      <Route exact path = {["/", "/ReactPortfolio"]} component={Home}/>
-      <Route  path = "/ReactPortfolio/contact" component={Contact}/>
-      <Route  path = "/ReactPortfolio/portfolio" component={Portfolio}/>
-      <Route  path = "/ReactPortfolio/videos" component={Videos}/>
+      <Route exact path={["/", "/ReactPortfolio"]} component={Home} />
+      <Route path="/ReactPortfolio/contact" component={Contact} />
+      <Route path="/ReactPortfolio/portfolio" component={Portfolio} />
+      <Route path="/ReactPortfolio/videos" component={Videos} />
       <Footer />
     </Router>
   );
