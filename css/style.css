@@ -1,0 +1,256 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/SimpleLogo.png);
+    background-repeat: repeat;
+    background-size: 120px;
+    max-width: 99%;
+}
+
+.content{
+    margin-left:15px;
+}
+
+
+.fa{
+    font-size:24px;
+}
+
+.row{
+    color:white;
+    margin-top: 20px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Contact specific css */
+
+#contactform{
+    color:white;
+    height: 100vh;
+}
+
+#contacth1{
+    margin-left: 15px;
+    margin-top: 90px;
+    color:white;
+}
+
+#contacth1bg{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contactlabels{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#contactbutton{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    color:white;
+    margin-left: 15px;
+}
+
+#contactbutton:hover {
+    background-color: white;
+    color: black;
+    border:white;
+}
+
+.form-control{
+    background-color: #DCDCDC;
+}
+
+/* Home specific css */
+
+.profilepics{
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100%;
+}
+
+.homepersonalpics{
+    max-width: 30%;
+    max-height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homecarousel{
+    margin-top: 90px;
+}
+
+.carousel-control-prev{
+    margin-left: 30%;
+}
+
+
+.carousel-control-next{
+    margin-right: 30%;
+}
+
+#hometext{
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: larger;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hometextbg{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    opacity: 90%;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#homeh3{
+    margin-top: 10px;
+}
+
+#profilepic{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 40%;
+    display: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 20px;
+}
+
+
+/* Portfolio specific css */
+
+.projectpics{
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100%;
+}
+
+#portfolioh1{
+    margin-left: 15px;
+    margin-top: 90px;
+    color:white;
+    
+}
+
+#portfolioh1bg{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#portfolioh3{
+    margin-top: 10px;
+}
+
+.portfoliotext{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    opacity: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/* Video specific css */
+
+#videoh1{
+    margin-left: 15px;
+    margin-top: 90px;
+    color: white;
+}
+
+#videoh1bg{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.videostextbg{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    opacity: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Nav specific css */
+
+#videoh3{
+    margin-top: 10px;
+}
+.navbar-toggler{
+    background-color:white;
+}
+
+.navbar{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    color:white;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    z-index: 5;
+    }
+
+    .nav-item{
+        color: white;
+        transition: 0.75s ease;
+    }
+
+    .nav-item:hover {
+        background-color: white;
+        color: black;
+        
+    }
+
+    .navbar-brand{
+        color:white;
+        font-weight: bold;
+    }
+
+
+    /* Footer specific css */
+
+    .footer{
+        margin-top: auto;
+        text-align: center;
+        width: 100%;
+        background-color: #f2f2f2;
+        bottom: 0;
+        opacity: 80%;
+        left: 0;
+        bottom: 0;
+    }
+
+
+@media screen and (max-width: 600px) {
+}
