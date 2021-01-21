@@ -1,6 +1,6 @@
 # React: Portfolio
 
-![](portfolioScreenshot.jpg)
+![](pageScreenshot.jpg)
 
 ## Description 
 
