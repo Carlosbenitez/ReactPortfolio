@@ -11,10 +11,10 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link to="/ReactPortfolio"><a className="nav-item nav-link active">Home</a></Link>
-                    <Link to="/ReactPortfolio/portfolio"><a className="nav-item nav-link active">Portfolio</a></Link>
-                    <Link to="/ReactPortfolio/videos"><a className="nav-item nav-link active">Videos</a></Link>
-                    <Link to="/ReactPortfolio/contact"><a className="nav-item nav-link active">Contact</a></Link>
+                    <Link to="/ReactPortfolio" className="nav-item nav-link active">Home</Link>
+                    <Link to="/ReactPortfolio/portfolio" className="nav-item nav-link active">Portfolio</Link>
+                    <Link to="/ReactPortfolio/videos" className="nav-item nav-link active">Videos</Link>
+                    <Link to="/ReactPortfolio/contact" className="nav-item nav-link active">Contact</Link>
                 </div>
             </div>
         </nav>

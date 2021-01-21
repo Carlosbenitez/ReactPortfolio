@@ -12,10 +12,10 @@ function Videos() {
     ]
     const renderVid = (card, index) => {
         return (
-            <div className="col-lg-6">
-                <div className="content" id="videoscontent" key={index}>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src={card.site} allowfullscreen></iframe>
+            <div className="col-lg-6" key={index}>
+                <div className="content" id="videoscontent" >
+                    <div className="embed-responsive embed-responsive-16by9">
+                        <iframe className="embed-responsive-item" src={card.site} allowFullScreen></iframe>
                     </div>
                     <h3 id="videoh3" ><span className="videostextbg">{card.title}</span></h3>
                     <section className="videostextbg">{card.text}</section>
@@ -27,9 +27,9 @@ function Videos() {
     }
     return (
         <>
-            <h1 id="videoh1"><span id="videoh1bg">Some videos I made:</span></h1>
+            <h1 id="videoh1"><span id="videoh1bg">Videos I made:</span></h1>
             <div className="main">
-                <div id="contentback">
+                <div id="videoscontentback">
                     {/* card is imported here */}
                     <div className="row">
                         {vidInfo.map(renderVid)}
