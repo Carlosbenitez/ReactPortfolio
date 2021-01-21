@@ -44,14 +44,14 @@ function Portfolio() {
                     <a href={card.site} rel="noreferrer" target="_blank">
                         <img className="projectpics" src={card.image} alt={card.alt} />
                     </a>
-                    <h3 id="portfolioh3">{card.title}</h3>
-                    <section>{card.text}</section>
+                    <h3 id="portfolioh3" ><span className="portfoliotext">{card.title}</span></h3>
+                    <section className="portfoliotext">{card.text}</section>
                 </div>
             </div>)
     }
     return (
         <>
-            <h1 id="portfolioh1">My Applications:</h1>
+            <h1 id="portfolioh1"><span id="portfolioh1bg">My Applications:</span></h1>
             <div className="main">
                 <div id="contentback">
                     {/* card is imported here */}

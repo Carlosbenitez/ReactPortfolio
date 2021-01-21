@@ -3,6 +3,8 @@ import profile from "./img/Profilepicture.jfif"
 import git from "./img/GitHub.jpg"
 import linkedin from "./img/LinkedIn.jpg"
 import portfolio from "./img/Portfolio.jpg"
+import family from "./img/FamilyIMG.JPEG"
+import couple from "./img/CoupleIMG.JPG"
 
 
 function Home() {
@@ -19,8 +21,8 @@ function Home() {
                     <a href={card.site} rel="noreferrer" target="_blank">
                         <img className="profilepics" src={card.image} alt={card.alt} />
                     </a>
-                    <h3 id="homeh3">{card.title}</h3>
-                    <section >{card.text}</section>
+                    <h3 id="homeh3"><span className="hometextbg">{card.title}</span></h3>
+                    <section className="hometextbg">{card.text}</section>
                 </div>
             </div>)
     }
@@ -32,16 +34,24 @@ function Home() {
                         <img className="d-block w-100 homepersonalpics" src={profile} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100 homepersonalpics" src="..." alt="Second slide" />
+                        <img className="d-block w-100 homepersonalpics" src={family} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100 homepersonalpics" src="..." alt="Third slide" />
+                        <img className="d-block w-100 homepersonalpics" src={couple} alt="Third slide" />
                     </div>
                 </div>
+                <a className="carousel-control-prev" href="#homecarousel" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#homecarousel" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
+                </a>
             </div>
             <br />
             <div className="contentback">
-                <article id="hometext">
+                <article id="hometext" className="hometextbg">
                     With seven years of logistics experience I am looking for a new career path by learning the language of code.
         <br />
                     <br />
@@ -51,11 +61,12 @@ function Home() {
         be.
         <br />
                     <br />
-        Here is a page dedicated to some of the projects I have worked on. If you enjoy my work please feel free to
+        Here is a page dedicated to
+        the projects I have worked on. If you enjoy my work please feel free to
         link with me on my professional websites below.
     </article>
             </div>
-            <div id="contentback">
+            <div id="contentcard">
                 {/* card is imported here */}
                 <div className="row">
                     {cardInfo.map(renderCard)}

@@ -12,7 +12,7 @@ function Contact() {
 
 
             <div id="contentback">
-                <h1 id="contacth1">Contact Me!</h1>
+                <h1 id="contacth1"><span id="contacth1bg">Contact Me!</span></h1>
                 <hr />
                 <form id="contactform">
 
@@ -26,7 +26,7 @@ function Contact() {
                         <textarea className="form-control" id="Message" rows="8"></textarea>
                         <br />
                     </div>
-                    <button type="button" className="btn btn-primary btn-lg" onClick={sendTo}>Submit</button>
+                    <button type="button" className="btn btn-primary btn-lg" id="contactbutton"onClick={sendTo}>Submit</button>
                 </form>
             </div>
         </>
