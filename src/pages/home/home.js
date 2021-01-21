@@ -43,7 +43,7 @@ function Home() {
                     <br />
         Here is a page dedicated to
         the projects I have worked on. If you enjoy my work please feel free to
-        link with me on the .
+        link with me!
     </article>
             </div>
         </>
