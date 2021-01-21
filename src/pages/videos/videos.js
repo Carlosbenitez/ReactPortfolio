@@ -15,7 +15,7 @@ function Videos() {
             <div className="col-lg-6" key={index}>
                 <div className="content" id="videoscontent" >
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src={card.site} allowFullScreen></iframe>
+                        <iframe className="embed-responsive-item" title="video" src={card.site} allowFullScreen></iframe>
                     </div>
                     <h3 id="videoh3" ><span className="videostextbg">{card.title}</span></h3>
                     <section className="videostextbg">{card.text}</section>
