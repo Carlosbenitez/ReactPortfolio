@@ -8,9 +8,9 @@ import budget from "./img/ProgressiveBudget.jpg"
 
 function Portfolio() {
     const cardInfo = [
-        { image: project3, title: "VG Gaming", text: "For the third project our group wanted to continue developing games so we focused our efforts on creating a game hosting platform for the two games in production. The page became known as VG Gaming where we host two games Dino Dynasty and Rogue Blitz. The high scores for both games are linked to an accounts gamertag and are displayed for the world to see. Create an account today so you can compete against your friends all over the world.", site: "https://vguniverse.herokuapp.com/", alt: "My Third Project" },
+        { image: project3, title: "VG Gaming", text: "For this project my group wanted to focus on creating a game hosting platform. The page became known as VG Gaming where we currently host two games Dino Dynasty and Rogue Blitz. The high scores for both games are linked to an accounts gamertag and are displayed for the world to see. I was responsible for map/enemy creation and the UI. Create an account today so you can compete against your friends all over the world!", site: "https://vguniverse.herokuapp.com/", alt: "My Third Project" },
 
-        { image: rogue, title: "Rogue Blitz", text: "The second project that I had the privledge to work on was a retro game called Rogue Blitz. We utilized a library called Phaser to animate everything and add physics. This game is a horde style game that has you battling to put your high score on top. I was responsible for enemy creation and the UI. Think you can beat my high score? Give it a try!", site: "https://rogueblitzgaming.herokuapp.com/", alt: "My Second Project" },
+        { image: rogue, title: "Rogue Blitz", text: "I had the privledge to work on an application taht was a retro game called Rogue Blitz. My group utilized a library called Phaser to animate everything and add physics. This game is a horde-style game that has you battling to earn the ultimate high score. I was responsible for enemy creation and the UI. Think you can beat my high score? Give it a try!", site: "https://rogueblitzgaming.herokuapp.com/", alt: "My Second Project" },
 
         { image: burger, title: "Burger Logger", text: "Do you have a hit list of burgers to eat? Then this is the app for you. Store new burgers to a list or add ones you have already devoured. Once you have eaten a saved burger mark it as devoured. Lose interest or regret devouring it? Just delete it.", site: "https://burger-app-cjb.herokuapp.com/", alt: "My Burger Logger" },
 
@@ -24,7 +24,7 @@ function Portfolio() {
 
     const renderCard = (card, index) => {
         return (
-            <div className="col-sm-8 col-md-2 col-lg-5" key={index}>
+            <div className="col-sm-8 col-md-2 col-lg-5" >
                 <div className="content" id="portfoliocontent" >
                     <a href={card.site} rel="noreferrer" target="_blank">
                         <img className="projectpics" src={card.image} alt={card.alt} />
