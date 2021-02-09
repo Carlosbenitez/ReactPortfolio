@@ -16,4 +16,4 @@ You can use this page to connect with me, view some of my work, or send me a mes
 
 ## Credits
 
-I would like to give a lot of credit to my TA Leigh Tracey she helped me so much understand the concepts needed for this assignment. Also my tutor Phil Loy gave me a lot of pointers with React.
+I would like to give a lot of credit to my TA Leigh Tracey she helped me Link my navbar to the rest of my page. Also my tutor Phil Loy gave me a lot of pointers with React and how to make the project modular.
