@@ -217,12 +217,13 @@ section{
     margin-right: 10%;
 }
 
-
-/* Nav specific css */
-
 #videoh3{
     margin-top: 10px;
 }
+
+/* Nav specific css */
+
+
 .navbar-toggler{
     background-color:white;
 }
